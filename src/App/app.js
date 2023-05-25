@@ -18,7 +18,7 @@ import Web3Hive from "./Web3Hive/web3hive";
 // console.log(process.env)
 // Import the functions you need from the SDKs you need
 
-
+ console.log(process.env.REACT_APP_SEC)
 let username = "";
 let token = "";
 const chklocaluser = () => {
